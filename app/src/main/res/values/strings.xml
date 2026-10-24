@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">XCore</string>
+
+    <!-- Info screen headings -->
+    <string name="info_title">Info</string>
+    <string name="info_core_heading">Xavier Core</string>
+    <string name="info_categories_heading">Categories of Xavier Core</string>
+
+    <!-- Expand and collapse labels -->
+    <string name="read_more">Read more</string>
+    <string name="show_less">Show less</string>
+
+    <!-- Core curriculum overview -->
+    <string name="info_core_overview">Xavier University of Louisiana’s Core Curriculum (X-Core) emphasizes Xavier’s tradition as a Catholic and historically Black institution and makes a critical contribution to the Liberal Arts idea that students should achieve both breadth and depth of knowledge.\n\nX-Core is the foundation of an introspective education and is required of all undergraduate students in the College of Arts and Sciences. It includes 40 credit hours across different areas, plus a Capstone Course within the major.\n\nX-Core transforms the undergraduate educational experience by exposing students to integrative approaches to learning and cultivating nuanced perspectives in contemplating responses to the major questions of their lives.</string>
+
+    <!-- Foundations -->
+    <string name="info_foundations_heading">Foundations at Xavier</string>
+    <string name="info_foundations_description">The Foundations at Xavier provide Xavier students with an introduction to college-level written and spoken rhetoric, quantitative reasoning, and critical thinking and writing skills necessary for success during their academic studies and in their profession and personal paths.\n\nThe Experience courses expand both knowledge and skills, while also shaping the habits of mind that lay at the heart of what it means to live Xavier’s mission.\n\nIn addition to promoting general academic skills, Foundations courses help students explore issues of self-identity and foster an examination of their individual roles within larger communities. These courses also offer opportunities to create new communities among students and develop unique mentoring relationships with professors.</string>
+
+    <!-- Explorations -->
+    <string name="info_explorations_heading">Explorations in the Liberal Arts</string>
+    <string name="info_explorations_description">Explorations courses build on the Foundational requirements and foster the breadth of knowledge, skills, and values essential to a well-rounded, liberal arts education within the intellectual space of a Catholic and historically Black university.\n\nThese categories are not organized by department or discipline, but by areas of inquiry. It is expected that these categories may inspire the creation of new courses – or revisions to existing ones – that will expand the interconnectivity of different perspectives and blur the lines of disciplinary isolation.\n\nThe courses in any particular category might come from multiple disciplines.</string>
+
+    <!-- Engagements -->
+    <string name="info_engagements_heading">Engagements with Knowledge &amp; Practice</string>
+    <string name="info_engagements_description">Engagements courses accentuate integrative and applied learning. Catholic intellectual tradition emphasizes that learning is most meaningful when difficult questions are investigated from a variety of perspectives.\n\nThe Engagements courses allow students to explore connections between disciplines and provide opportunities to study a “big idea” topic from multiple disciplinary perspectives in order to find solutions to complex problems.\n\nThe Engagements seminars prepare students to contribute to the promotion of a more just and humane society by enhancing students’ preparedness to assume roles of leadership and service in a global society.</string>
+
 </resources>
