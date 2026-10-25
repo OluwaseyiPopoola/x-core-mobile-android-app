@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.xcore.ui.feature.info.Info
 import com.example.xcore.ui.theme.XCoreTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,10 +21,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             XCoreTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+//                    Greeting(
+//                        name = "Android",
+//                        modifier = Modifier.padding(innerPadding)
+//                    )
+                    Info(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
