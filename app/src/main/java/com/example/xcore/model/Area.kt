@@ -11,6 +11,7 @@ sealed interface Area {
 
         fun fromName(name: String): Area? {
             val trimmed = name.trim()
+            if (trimmed.isEmpty()) return null
             return allAreas.find {
                 it.displayName.equals(trimmed, ignoreCase = true) ||
                         (it as Enum<*>).name.equals(trimmed, ignoreCase = true)

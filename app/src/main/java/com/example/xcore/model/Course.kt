@@ -6,7 +6,9 @@ data class Course(
     val area: Area,
     val department: String,
     val number: Int,
-    val category: Category = area.category,
-    val classification: Classification = Classification.fromCourseNumber(number),
+    val classification: Classification = Classification.fromCourseNumber(number)
+) {
+    val category: Category = area.category
     var crossListedCourses: List<Course> = emptyList()
-)
+
+}
