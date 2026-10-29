@@ -1,4 +1,4 @@
-package com.example.xcore.model
+package com.example.xcore.data.model
 
 data class Course(
     val code: String,

@@ -1,6 +1,14 @@
-package com.example.xcore.model
+package com.example.xcore.data.sources
 
-class Courses(val allCourses: List<Course> = defaultCourses) {
+import com.example.xcore.data.model.Area
+import com.example.xcore.data.model.Category
+import com.example.xcore.data.model.Classification
+import com.example.xcore.data.model.Course
+import com.example.xcore.data.model.EngagementsArea
+import com.example.xcore.data.model.ExplorationsArea
+import com.example.xcore.data.model.FoundationsArea
+
+class CoursesData(val allCourses: List<Course> = defaultCourses) {
 
     fun getCoursesByCategory(category: Category): List<Course> {
         return allCourses.filter { it.category == category }

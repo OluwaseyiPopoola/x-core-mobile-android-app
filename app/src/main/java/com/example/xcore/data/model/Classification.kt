@@ -1,4 +1,4 @@
-package com.example.xcore.model
+package com.example.xcore.data.model
 
 enum class Classification {
     FR, // Freshman (1000 - 1999)

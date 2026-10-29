@@ -1,4 +1,4 @@
-package com.example.xcore.model
+package com.example.xcore.data.model
 
 sealed interface Area {
     val displayName: String

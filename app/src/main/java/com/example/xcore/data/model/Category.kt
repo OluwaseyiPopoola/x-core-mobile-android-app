@@ -1,4 +1,4 @@
-package com.example.xcore.model
+package com.example.xcore.data.model
 
 enum class Category(val displayName: String) {
     FOUNDATIONS("FOUNDATIONS AT XAVIER"),
